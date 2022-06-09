@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    margin: 10px;
+    color: brown;
+}
+
+.tarjeta{
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.tarjeta__titulo{
+    text-align: center;
+}
+.tarjeta__descripcion{
+    margin: 5px;
+}
+
+.tarjeta__img {
+    width: 100%;
+}
+.btn{
+    margin: 10px;
+}
+.tarjeta__descripcion--negrita{
+    font-weight: 800;
+}
+
+.tarjeta--dark{
+    background-color: black;
+    color: white;
+}
+.promociones{
+    text-align: center;
+    margin: 15px;
+}
+.promociones__titulo{
+    margin: 10px;
+}

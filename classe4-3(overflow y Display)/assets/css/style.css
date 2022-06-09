@@ -1,0 +1,17 @@
+.caja{
+    width: 100px;
+    background-color: blueviolet;
+    height: 100px;
+    margin: 10px;
+    overflow: hidden;
+   
+
+}
+.parrafo{
+   display: inline;
+   width: 100px;
+
+}
+.resaltar{
+    background-color: blue;
+}

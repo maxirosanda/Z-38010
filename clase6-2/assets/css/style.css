@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    grid-template-rows: 150px auto auto 100px;
+    grid-template-areas: "navegador  encabezado  encabezado  encabezado"
+                         "navegador  principal   principal   secundario"
+                         "navegador  noticias    noticias    secundario"
+                         "navegador  pie         pie         pie";
+}
+
+.navegador{
+    grid-area: navegador;
+    background-color: aqua;
+}
+.encabezado{
+    grid-area: encabezado ;
+    background-color: blueviolet;
+}
+.principal{
+    grid-area: principal;
+    background-color:brown;
+    padding: 10px;
+}
+
+.noticias{
+    grid-area: noticias;
+    background-color: chartreuse;
+    padding: 10px;
+}
+
+.secundario{
+    grid-area: secundario;
+    background-color: cadetblue;
+}
+
+.pie {
+    grid-area: pie;
+    background-color: darkblue;
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    width: 300px;
+    background-color: blue;
+    /*padding: 30px;*/
+    /*padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 15px;*/
+    padding: 30px 20px 10px 15px;
+    /*border-color: brown;
+    border-width: 3px;
+    border-style:solid;
+    */
+    border: 3px solid rgb(196, 3, 3);
+    /*border-top: 5px solid rgb(0, 131, 98);
+    border-right: 10px solid rgb(145, 0, 137);
+    border-bottom: 15px solid rgb(23, 252, 2);
+    border-left: 2px solid rgb(136, 43, 43);
+    */
+    border-radius: 8px;
+    /*margin: 10px;*/
+   /* margin-top: 15px;
+    margin-right:25px ;*/
+    margin: 10px 20px 15px 25px;
+}

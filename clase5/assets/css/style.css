@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedorCajas{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    background-color: aqua;
+}
+.caja{
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.caja1{
+    order: 3;
+    align-self: start;
+}
+.caja2{
+    order: 1;
+}
+
+.caja3{
+    order: 2;
+}

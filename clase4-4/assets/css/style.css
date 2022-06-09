@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    width: 200px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+
+}
+.caja1{
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    z-index: 10;
+
+}
+
+.caja2{
+    background-color: aqua;
+    padding-top: 80px;
+}
+.caja3{
+    background-color: blue;
+    position: relative;
+    top: 50px;
+}
+.navbar{
+    width: 100%;
+    margin: 0;
+    height: 80px;
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.navbar ul {
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.navbar ul li ul {
+    display: none;
+}
+.navbar ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color:cornflowerblue ;
+    left: 0;
+}
+
+.contenedorParrafos{
+    height: 1800px;
+    background-color: brown;
+}
+header img{
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+@font-face { 
+    font-family: "Blaka Hollow"; 
+    src: url("../fonts/BlakaHollow-Regular.ttf"); 
+} 
+
+h5{
+    font-family: "Blaka Hollow" ;
+}
