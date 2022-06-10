@@ -3,7 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 80px 200px auto 80px;
+    grid-template-areas: "navbar navbar navbar navbar";
+}
+
 .navbar{
+    grid-area: navbar;
     width: 100%;
     height: 60px;
     background-color: #001850 ;

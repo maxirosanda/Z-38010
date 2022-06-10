@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.caja{
+    width: 25%;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+}
+.cajas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media(max-width:768px){
+    .caja{
+        width: 45%;
+    }
+}
+
+@media(max-width:568px){
+    .caja{
+        width: 90%;
+    }
+}

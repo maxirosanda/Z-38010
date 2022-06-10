@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cajas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.caja{
+    background-color: brown;
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+@media(min-width:768px){
+
+    .caja{
+        background-color: aqua;
+        width: 45%;
+
+    }
+}
+
+@media(min-width:1200px){
+    .caja{
+        width: 30%;
+    }
+}
